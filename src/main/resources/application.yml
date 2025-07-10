@@ -1,4 +1,5 @@
 spring:
+   environment: test
    server:
      port:4000
 ---
@@ -6,3 +7,8 @@ spring:
 environment: prod
 server:
   port: 7070
+
+---
+environment: dev
+server:
+  port: 5000
